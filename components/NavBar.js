@@ -73,13 +73,13 @@ export default function NavBar() {
           </Link>
         </li>
         <li>
-          <Link href="/#blog">
+          <Link href="/#">
             <a>News</a>
           </Link>
         </li>
         <li>
-          <Link href="/#">
-            <Button isPrimary>Contact us</Button>
+          <Link href="/#contact">
+            <Button isPrimary>FREE CONSULTATION</Button>
           </Link>
         </li>
       </ul>
