@@ -7,6 +7,7 @@ import ConsultForm from '../components/ConsultForm'
 import Footer from '../components/Footer'
 import { useMediaQuery } from '../hooks/useMediaQuery'
 import Image from 'next/image'
+import Fade from 'react-reveal/Fade'
 
 export default function App() {
   const isDesktop = useMediaQuery('(min-width: 800px)')
@@ -24,7 +25,9 @@ export default function App() {
         tw="bg-primary bg-center bg-cover h-screen flex flex-col px-4 py-5 text-white"
       >
         <h1 tw="text-4xl leading-normal mt-auto md:(mb-auto ml-auto w-1/2 pr-4 text-7xl leading-tight)">
-          A fresh &amp; inclusive approach to world class litigation
+          <Fade>
+            A fresh &amp; inclusive approach to world class litigation
+          </Fade>
         </h1>
         <p tw="text-white tracking-widest relative mt-10 text-xs text-opacity-60 uppercase md:(pl-7 text-sm)">
           <Link href="#more">
