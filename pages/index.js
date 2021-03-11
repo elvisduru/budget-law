@@ -25,7 +25,7 @@ export default function App() {
         tw="bg-primary bg-center bg-cover h-screen flex flex-col px-4 py-5 text-white"
       >
         <h1 tw="text-4xl leading-normal mt-auto md:(mb-auto ml-auto w-1/2 pr-4 text-7xl leading-tight)">
-          <Fade cascade>
+          <Fade>
             A fresh &amp; inclusive approach to world class litigation
           </Fade>
         </h1>
@@ -74,9 +74,7 @@ export default function App() {
           tw="w-full h-60 pt-16 md:(absolute -bottom-20 right-40 w-5/12)"
         >
           <h2 tw="w-3/4 ml-4 pl-4 border-l-2 border-accent mt-auto md:(text-6xl w-full leading-tight absolute -left-3/4 top-1/4)">
-            <Fade cascade>
-              We're the litigation specialists that can help you.
-            </Fade>
+            <Fade>We're the litigation specialists that can help you.</Fade>
           </h2>
         </div>
       </section>
@@ -92,12 +90,12 @@ export default function App() {
           </Fade>
         </div>
         <h2 tw="my-6 text-black px-0 md:(col-span-7 text-6xl leading-tight place-self-center)">
-          <Fade cascade>
+          <Fade>
             A tailored approach that puts the needs of our clients first.
           </Fade>
         </h2>
         <div tw="md:(col-span-6 pr-10 pt-12)">
-          <Fade cascade>
+          <Fade>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               totam impedit inventore molestias laboriosam, illum veritatis unde
