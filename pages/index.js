@@ -141,13 +141,17 @@ export default function App() {
         tw="w-full h-60 pt-5 md:(px-48 py-16 h-80)"
       >
         <h2 tw="text-gray-200 text-center md:(text-3xl leading-relaxed w-1/2 m-auto)">
-          The best possible legal team will always look after our clients.
+          <Fade>
+            The best possible legal team will always look after our clients.
+          </Fade>
         </h2>
         <p tw="mt-3 flex justify-center">
           <Link href="#contact">
-            <a>
-              <Button isPrimary>Get Free Consultation</Button>
-            </a>
+            <Fade delay={100}>
+              <a>
+                <Button isPrimary>Get Free Consultation</Button>
+              </a>
+            </Fade>
           </Link>
         </p>
       </section>
@@ -178,7 +182,7 @@ export default function App() {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
-        tw="py-10 bg-fixed bg-no-repeat md:(px-48 py-32 grid grid-cols-2 gap-x-10)"
+        tw="py-10 bg-fixed bg-no-repeat grid grid-cols-1 md:(px-48 py-32 grid-cols-2 gap-x-10)"
       >
         <div>
           <h2 tw="text-accent">Free Consultation</h2>
@@ -189,9 +193,9 @@ export default function App() {
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4257560365536!2d3.353681414711019!3d6.593887895231411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93928d499a29%3A0x3ba3699567d98733!2sWAF%20SOLICITORS!5e0!3m2!1sen!2sng!4v1615484113989!5m2!1sen!2sng"
-          width="500"
-          height="400"
-          style={{ border: 0 }}
+          width={isDesktop ? '500' : '300'}
+          height={isDesktop ? '400' : '200'}
+          style={{ border: 0, margin: '30px auto' }}
           loading="lazy"
         ></iframe>
       </section>

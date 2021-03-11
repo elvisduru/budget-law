@@ -7,6 +7,7 @@ import {
   ButtonNext,
 } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
+import Fade from 'react-reveal/Fade'
 
 const clientList = [
   {
@@ -65,13 +66,15 @@ export default function Clients({ isDesktop }) {
           <Slider>
             {clientList.map(({ name, image, text, type }, i) => (
               <Slide index={i} key={i}>
-                <SlideContent
-                  name={name}
-                  image={image}
-                  type={type}
-                  text={text}
-                  isDesktop={isDesktop}
-                />
+                <Fade>
+                  <SlideContent
+                    name={name}
+                    image={image}
+                    type={type}
+                    text={text}
+                    isDesktop={isDesktop}
+                  />
+                </Fade>
               </Slide>
             ))}
           </Slider>

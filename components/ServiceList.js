@@ -46,16 +46,20 @@ export default function ServiceList() {
       <h2 tw="md:(text-4xl my-8)">Services</h2>
       <div tw="md:(grid grid-cols-3)">
         {services.map(({ imgClass, title, text }, i) => (
-          <Service key={i} imgClass={imgClass} title={title} text={text} />
+          <Fade>
+            <Service key={i} imgClass={imgClass} title={title} text={text} />
+          </Fade>
         ))}
       </div>
 
       <p tw="mt-4 flex justify-center md:(mt-10)">
-        <Link href="#contact">
-          <a>
-            <Button isPrimary>Get Free Consultation</Button>
-          </a>
-        </Link>
+        <Fade>
+          <Link href="#contact">
+            <a>
+              <Button isPrimary>Get Free Consultation</Button>
+            </a>
+          </Link>
+        </Fade>
       </p>
     </section>
   )

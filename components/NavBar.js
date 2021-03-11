@@ -56,6 +56,7 @@ export default function NavBar() {
           tw`z-30 fixed w-full h-full`,
           openNav && tw`translate-x-0`,
         ]}
+        onClick={toggleOpenNav}
       >
         <li>
           <Link href="/#more">
