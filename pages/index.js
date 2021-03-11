@@ -25,7 +25,7 @@ export default function App() {
         tw="bg-primary bg-center bg-cover h-screen flex flex-col px-4 py-5 text-white"
       >
         <h1 tw="text-4xl leading-normal mt-auto md:(mb-auto ml-auto w-1/2 pr-4 text-7xl leading-tight)">
-          <Fade>
+          <Fade cascade>
             A fresh &amp; inclusive approach to world class litigation
           </Fade>
         </h1>
@@ -45,22 +45,24 @@ export default function App() {
         tw="bg-primary text-white md:(pt-24 px-48 pb-80 grid grid-cols-1 grid-rows-2 relative)"
       >
         <div tw="px-12 py-10 text-sm text-white md:(px-0 py-4 w-1/3 text-base)">
-          <p tw="md:(my-3)">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            nobis debitis vero consequuntur? Fuga unde doloribus dignissimos
-            consequatur esse?
-          </p>
-          <p tw="md:(my-3)">
-            Eos, perferendis dolorem. Praesentium similique sint minima voluptas
-            non ducimus. Itaque!
-          </p>
-          <Link href="#contact">
-            <a tw="md:hidden">
-              <Button isPrimary tw="mt-5">
-                Get Free Consultation
-              </Button>
-            </a>
-          </Link>
+          <Fade bottom>
+            <p tw="md:(my-3)">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis nobis debitis vero consequuntur? Fuga unde doloribus
+              dignissimos consequatur esse?
+            </p>
+            <p tw="md:(my-3)">
+              Eos, perferendis dolorem. Praesentium similique sint minima
+              voluptas non ducimus. Itaque!
+            </p>
+            <Link href="#contact">
+              <a tw="md:hidden">
+                <Button isPrimary tw="mt-5">
+                  Get Free Consultation
+                </Button>
+              </a>
+            </Link>
+          </Fade>
         </div>
         <div
           style={{
@@ -72,43 +74,53 @@ export default function App() {
           tw="w-full h-60 pt-16 md:(absolute -bottom-20 right-40 w-5/12)"
         >
           <h2 tw="w-3/4 ml-4 pl-4 border-l-2 border-accent mt-auto md:(text-6xl w-full leading-tight absolute -left-3/4 top-1/4)">
-            We're the litigation specialists that can help you.
+            <Fade cascade>
+              We're the litigation specialists that can help you.
+            </Fade>
           </h2>
         </div>
       </section>
       <section tw="bg-white p-6 pb-16 md:(px-48 pt-48 pb-0 grid grid-cols-12 grid-rows-2 gap-x-20)">
         <div tw="md:col-span-5">
-          <Image
-            src="/images/angel.jpg"
-            width={150}
-            height={200}
-            layout="responsive"
-          />
+          <Fade>
+            <Image
+              src="/images/angel.jpg"
+              width={150}
+              height={200}
+              layout="responsive"
+            />
+          </Fade>
         </div>
         <h2 tw="my-6 text-black px-0 md:(col-span-7 text-6xl leading-tight place-self-center)">
-          A tailored approach that puts the needs of our clients first.
+          <Fade cascade>
+            A tailored approach that puts the needs of our clients first.
+          </Fade>
         </h2>
         <div tw="md:(col-span-6 pr-10 pt-12)">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            totam impedit inventore molestias laboriosam, illum veritatis unde
-            numquam minus, alias dolores vitae labore earum necessitatibus?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            earum eaque amet harum veniam iusto facere debitis in, voluptatem
-            laboriosam fugit pariatur quasi hic. Hic, nobis? Doloribus nulla
-            expedita, commodi ipsam necessitatibus enim, consequuntur quisquam
-            consectetur laborum illo quis molestias?
-          </p>
+          <Fade cascade>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              totam impedit inventore molestias laboriosam, illum veritatis unde
+              numquam minus, alias dolores vitae labore earum necessitatibus?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              earum eaque amet harum veniam iusto facere debitis in, voluptatem
+              laboriosam fugit pariatur quasi hic. Hic, nobis? Doloribus nulla
+              expedita, commodi ipsam necessitatibus enim, consequuntur quisquam
+              consectetur laborum illo quis molestias?
+            </p>
+          </Fade>
         </div>
         <div tw="md:(col-span-6)">
-          <Image
-            src="/images/handshake.jpg"
-            width={320}
-            height={220}
-            layout="responsive"
-          />
+          <Fade>
+            <Image
+              src="/images/handshake.jpg"
+              width={320}
+              height={220}
+              layout="responsive"
+            />
+          </Fade>
         </div>
       </section>
       <ServiceList />

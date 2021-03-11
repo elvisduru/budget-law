@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Button from './Button'
 import Service from './Service'
+import Fade from 'react-reveal/Fade'
 
 const services = [
   {
