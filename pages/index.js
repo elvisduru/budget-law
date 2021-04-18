@@ -47,14 +47,19 @@ export default function App() {
         <div tw="px-12 py-10 text-sm text-white md:(px-0 py-4 w-1/3 text-base)">
           <Fade bottom>
             <p tw="md:(my-3)">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis nobis debitis vero consequuntur? Fuga unde doloribus
-              dignissimos consequatur esse?
+              At Budget Law we do the work for you, provision of legal service
+              is our business specialty and drafting and listening are our
+              strengths with our founding directors experience that span over 20
+              years in broad spectrum of sectors you can be assured of favorable
+              outcomes to your issues once placed under our care.
             </p>
-            <p tw="md:(my-3)">
-              Eos, perferendis dolorem. Praesentium similique sint minima
-              voluptas non ducimus. Itaque!
-            </p>
+            {/* <p tw="md:(my-3)">
+              Our team are our greatest assets drafted from different expertise
+              and training in their chosen areas of interest. At Budget Law your
+              case will be allocated to a specialist whose experience and
+              training have produced positive outcomes in similar set of
+              circumstances like your proposed case.
+            </p> */}
             <Link href="#contact">
               <a tw="md:hidden">
                 <Button isPrimary tw="mt-5">
@@ -94,20 +99,24 @@ export default function App() {
             A tailored approach that puts the needs of our clients first.
           </Fade>
         </h2>
-        <div tw="md:(col-span-6 pr-10 pt-12)">
+        <div tw="pb-5 md:(col-span-6 pr-10 pt-12)">
           <Fade>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              totam impedit inventore molestias laboriosam, illum veritatis unde
-              numquam minus, alias dolores vitae labore earum necessitatibus?
+            <h4 tw="font-semibold">Our Team</h4>
+            <p tw="mt-1">
+              Our team are our greatest assets drafted from different expertise
+              and training in their chosen areas of interest. At Budget Law your
+              case will be allocated to a specialist whose experience and
+              training have produced positive outcomes in similar set of
+              circumstances like your proposed case.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              earum eaque amet harum veniam iusto facere debitis in, voluptatem
-              laboriosam fugit pariatur quasi hic. Hic, nobis? Doloribus nulla
-              expedita, commodi ipsam necessitatibus enim, consequuntur quisquam
-              consectetur laborum illo quis molestias?
-            </p>
+            <h4 tw="font-semibold">Always Accessible At All Times</h4>
+            <ul tw="list-disc pl-5 mt-1">
+              <li>15 Minute Call Back By A Trained Consultant</li>
+              <li>Low Price & High-Quality Outcome</li>
+              <li>A True 24 Hour Service</li>
+              <li>No Hidden Costs</li>
+              <li>Preferred Provider Discounts</li>
+            </ul>
           </Fade>
         </div>
         <div tw="md:(col-span-6)">
@@ -143,15 +152,15 @@ export default function App() {
             The best possible legal team will always look after our clients.
           </Fade>
         </h2>
-        <p tw="mt-3 flex justify-center">
-          <Link href="#contact">
-            <Fade delay={100}>
+        <Fade delay={100}>
+          <p tw="mt-3 flex justify-center">
+            <Link href="#contact">
               <a>
                 <Button isPrimary>Get Free Consultation</Button>
               </a>
-            </Fade>
-          </Link>
-        </p>
+            </Link>
+          </p>
+        </Fade>
       </section>
       <section
         style={{

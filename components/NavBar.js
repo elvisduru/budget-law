@@ -3,24 +3,21 @@ import Link from 'next/link'
 import useToggle from '../hooks/useToggle'
 import Button from './Button'
 import tw, { css } from 'twin.macro'
-import { useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 
 export default function NavBar() {
   const [openNav, toggleOpenNav] = useToggle()
-  const navBarEl = useRef(null)
 
-  const handleScroll = () => {
-    if (window.scrollY > navBarEl.current.offsetHeight) {
-      navBarEl.current.style.backgroundColor = '#1E2E3E'
-    } else {
-      navBarEl.current.style.backgroundColor = 'transparent'
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
+  const navBarEl = useCallback(node => {
+    if (node !== null) {
+      const handleScroll = () => {
+        if (window.scrollY > node.getBoundingClientRect().height) {
+          node.style.backgroundColor = '#1E2E3E'
+        } else {
+          node.style.backgroundColor = 'transparent'
+        }
+      }
+      window.addEventListener('scroll', handleScroll)
     }
   }, [])
 

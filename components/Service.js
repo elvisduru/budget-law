@@ -1,4 +1,4 @@
-import tw, { styled } from 'twin.macro'
+import tw from 'twin.macro'
 
 const Heading = tw.h4`uppercase text-xs text-white text-opacity-90 tracking-wider`
 
