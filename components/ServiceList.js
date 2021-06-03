@@ -20,7 +20,7 @@ const services = [
     imgClass: 'civil',
     title: 'Election Tribunal',
     text:
-      'Our experienced lawyers understand the electoral process and can assist you to achieve credible outcome and correct and/or obtain remedy in your past disputed electoral results in the following: National Assembly, Residential, Gubernatorial, State Assembly and Local Government elections. We fight your causes at the electoral tribunal wether as an aspirant, candidate, political party or stakeholder.',
+      'Our experienced lawyers understand the electoral process and can assist you to achieve credible outcome and/or obtain remedy in your past disputed electoral results in the following: National Assembly, Presidential, Gubernatorial, State Assembly and Local Government elections. We fight your causes at the electoral tribunal whether as an Aspirant, Candidate, Political party or Stakeholder.',
   },
   {
     imgClass: 'tax',
