@@ -21,7 +21,7 @@ export default function Footer() {
           <li>Commercial Litigation & Dispute Resolution</li>
           <li>Professional Negligence</li>
           <li>Settlement agreements &amp; Mediation</li>
-          <li>Other Complex Damages Based Business Litigation</li>
+          <li>Complex Damages Based Business Litigation</li>
         </ul>
       </div>
       <div>
@@ -32,7 +32,7 @@ export default function Footer() {
           <li>Professional, Medical &amp; Clinical Negligence</li>
           <li>Property disputes, lease extension</li>
           <li>Serious Personal Injury</li>
-          <li>Other Complex Damages Based Personal Litigation</li>
+          <li>Complex Damages Based Personal Litigation</li>
         </ul>
       </div>
       <div tw="font-serif text-accent text-xl">
