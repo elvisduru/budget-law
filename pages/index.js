@@ -150,7 +150,7 @@ export default function App() {
       >
         <h2 tw="text-gray-200 text-center lg:(text-3xl leading-relaxed w-1/2 m-auto)">
           <Fade>
-            The best possible legal team will always look after our clients.
+            The best legal team will always look after their clients.
           </Fade>
         </h2>
         <Fade delay={100}>
