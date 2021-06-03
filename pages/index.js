@@ -48,11 +48,11 @@ export default function App() {
         <div tw="px-12 py-10 text-sm text-white lg:(px-0 py-4 w-1/3 text-base)">
           <Fade bottom>
             <p tw="lg:(my-3)">
-              At Budget Law we do the work for you, provision of legal service
-              is our business specialty and drafting and listening are our
+              At Budget Law we do the work with you. Provision of legal service
+              is our business specialty; drafting and listening are our
               strengths with our founding directors experience that span over 20
               years in broad spectrum of sectors you can be assured of favorable
-              outcomes to your issues once placed under our care.
+              outcomes to your issues once placed under our diligent care.
             </p>
             {/* <p tw="lg:(my-3)">
               Our team are our greatest assets drafted from different expertise
