@@ -20,14 +20,14 @@ export default function App() {
           backgroundImage: `${
             isDesktop
               ? `linear-gradient(to left, #1E2E3E 40%, transparent 40%), url('/images/hero-lg.jpg')`
-              : `linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('/images/hero.jpg')`
+              : `linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('/images/hero-lg.jpg')`
           }`,
         }}
         tw="bg-primary bg-center bg-cover h-screen flex flex-col px-4 py-5 text-white"
       >
         <h1 tw="text-4xl leading-normal mt-auto lg:(mb-auto ml-auto w-1/2 pr-4 text-7xl leading-tight)">
           <Fade>
-            A fresh &amp; inclusive approach to world class litigation
+            A fresh &amp; inclusive approach to world class legal advice, support &amp; litigation
           </Fade>
         </h1>
         <p tw="text-white tracking-widest relative mt-10 text-xs text-opacity-60 uppercase lg:(pl-7 text-sm)">
