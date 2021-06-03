@@ -195,7 +195,7 @@ export default function App() {
         <div>
           <h2 tw="text-accent">Free Consultation</h2>
           <p tw="px-6 mt-0 mb-10 text-sm text-white text-opacity-90">
-            Please fill the form below an agent will get in touch with you.
+            Please fill the form below our consultant will get in touch with you.
           </p>
           <ConsultForm />
         </div>
