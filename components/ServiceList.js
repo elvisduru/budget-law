@@ -47,7 +47,7 @@ export default function ServiceList() {
     <section
       id="services"
       style={{ backgroundColor: '#05080A' }}
-      tw="py-10 text-white md:(px-48)"
+      tw="py-10 text-white md:px-10 lg:px-48"
     >
       <h2 tw="md:(text-4xl my-8)">Practice Areas</h2>
       <div tw="md:(grid grid-cols-3)">

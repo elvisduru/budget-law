@@ -13,7 +13,7 @@ const clientList = [
   {
     name: 'John Maxwell',
     image: '/images/client1.jpg',
-    type: 'CEO, Powell Inc.',
+    type: 'Founder/CEO, Proaxive.',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus hic molestiae harum quaerat quod. \n\nPerspiciatis eius alias exercitationem, modi tempore cumque unde repellat dolorum pariatur doloribus esse, blanditiis ea?`,
   },
   {

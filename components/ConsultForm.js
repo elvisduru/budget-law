@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade'
+import Button from './Button'
 
 export default function ConsultForm() {
   const handleSubmit = e => {
@@ -49,6 +50,9 @@ export default function ConsultForm() {
             name="msg"
           ></textarea>
         </label>
+        <Button tw="mt-5 mb-10 w-full md:w-auto" isPrimary>
+          Send message
+        </Button>
       </Fade>
     </form>
   )

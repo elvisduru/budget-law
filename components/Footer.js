@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer tw="bg-primary p-6 space-y-8 md:(grid grid-cols-4 gap-x-10 px-48)">
-      <div tw="md:mt-4">
+    <footer tw="bg-primary p-6 space-y-8 lg:(grid grid-cols-4 gap-x-10 px-48)">
+      <div tw="lg:mt-4">
         <Image
           src="/images/logo.svg"
           alt="Budget law logo"
@@ -40,7 +40,7 @@ export default function Footer() {
         <br />
         <a href="mailto:hello@bugdetlaw.com.ng">hello@bugdetlaw.com.ng</a>
       </div>
-      <div tw="md:col-span-full">
+      <div tw="lg:col-span-full">
         <hr tw="border-white border-opacity-25" />
         <p tw="text-white text-opacity-60 text-xs">
           Copyright &copy; 2021 Budget Law Ltd. All Rights Reserved
