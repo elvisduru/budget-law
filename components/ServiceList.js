@@ -17,6 +17,12 @@ const services = [
       'We have a leading legal team devoted to civil law. We’re widely recognized as leaders, practicing on behalf of domestic and foreign corporations, organizations, public office holders, political parties, candidates and individuals.',
   },
   {
+    imgClass: 'civil',
+    title: 'Election Tribunal',
+    text:
+      'Our experienced lawyers understand the electoral process and can assist you to achieve credible outcome and correct and/or obtain remedy in your past disputed electoral results in the following: National Assembly, Residential, Gubernatorial, State Assembly and Local Government elections. We fight your causes at the electoral tribunal wether as an aspirant, candidate, political party or stakeholder.',
+  },
+  {
     imgClass: 'tax',
     title: 'Tax Advisory',
     text:
