@@ -42,7 +42,7 @@ const services = [
   {
     imgClass: 'civil',
     title: 'Oil and Gas Law',
-    text: 'We have one of the largest oil and gas legal practices in the world, with offices in every major oil and gas market. Our lawyers understand the global nature of the industry but are also able to offer specialized support for domestic market issues.',
+    text: 'We have one of the largest oil and gas legal practices in the world, with associate offices in every major oil and gas market. Our lawyers understand the global nature of the industry but are also able to offer specialized support for domestic market issues.',
   },
 ]
 
