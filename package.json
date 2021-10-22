@@ -10,6 +10,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^3.0.1",
     "next": "latest",
     "pure-react-carousel": "^1.27.6",
     "react": "^17.0.1",
@@ -17,7 +22,8 @@
     "react-reveal": "^1.2.2",
     "styled-components": "5.1.1",
     "tailwindcss": "^2.0.3",
-    "twin.macro": "^2.2.3"
+    "twin.macro": "^2.2.3",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "babel-plugin-twin": "^1.0.2"

@@ -35,11 +35,32 @@ export default function Footer() {
           <li>Complex Damages Based Personal Litigation</li>
         </ul>
       </div>
-      <div tw="font-serif text-accent text-xl">
-        <a href="tel:+2347049493845">+234 704 949 3845</a>
-        <br />
-        <a href="mailto:hello@bugdetlaw.com.ng">hello@bugdetlaw.com.ng</a>
+      <div>
+        <div tw="font-serif text-accent text-xl">
+          <a href="tel:+2347049493845">+234 704 949 3845</a>
+          <br />
+          <a href="mailto:hello@budgetlaw.com.ng">hello@budgetlaw.com.ng</a>
+        </div>
+        <div tw="text-white text-xs text-opacity-60 pr-10 leading-normal">
+          <div>
+            <p tw="mb-2">Head Office:</p>
+            <p tw="mt-1">
+              741 Adeola Hopewell Street, <br />
+              Victoria Island <br />
+              Lagos. Nigeria{' '}
+            </p>
+          </div>
+          <div>
+            <p tw="mb-2">Branch Office:</p>
+            <p tw="mt-1">
+              3A Ladipo Bateye Street, <br />
+              GRA-Ikeja <br />
+              Lagos. Nigeria{' '}
+            </p>
+          </div>
+        </div>
       </div>
+
       <div tw="lg:col-span-full">
         <hr tw="border-white border-opacity-25" />
         <p tw="text-white text-opacity-60 text-xs">

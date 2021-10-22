@@ -11,22 +11,22 @@ import Fade from 'react-reveal/Fade'
 
 const clientList = [
   {
-    name: 'John Maxwell',
+    name: 'Ade Adebajo',
     image: '/images/client1.jpg',
-    type: 'Founder/CEO, Proaxive.',
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus hic molestiae harum quaerat quod. \n\nPerspiciatis eius alias exercitationem, modi tempore cumque unde repellat dolorum pariatur doloribus esse, blanditiis ea?`,
+    type: 'CEO, UT Financial services Ltd',
+    text: `Budget law is an extremely professional form and they show a high level of care. \n\nThey are also very affordable. They deliver to time as well`,
   },
   {
-    name: 'Henry Jo',
+    name: 'Temi',
     image: '/images/client2.jpg',
-    type: 'CEO, Fiction Ltd.',
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus hic molestiae harum quaerat quod. \n\nPerspiciatis eius alias exercitationem, modi tempore cumque unde repellat dolorum pariatur doloribus esse, blanditiis ea?`,
+    type: 'CEO, BBHair LDN.',
+    text: `Budget Law has been very helpful in assisting me in my business. As a new business owner, I needed a lot of help and advice and Budget Law has really helped me. My business is now flourishing and I owe it all to Budget Law!! They are kind, understanding and highly professional!!`,
   },
   {
-    name: 'Tunde Lanre',
+    name: 'Francis Akpan-Inwang',
     image: '/images/client3.jpg',
-    type: 'CEO, Lens Group',
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus hic molestiae harum quaerat quod. \n\nPerspiciatis eius alias exercitationem, modi tempore cumque unde repellat dolorum pariatur doloribus esse, blanditiis ea?`,
+    type: 'CEO, Apex HR Consulting (UK) Ltd',
+    text: `Professional. Efficient. Courteous. The team at Budget Law understand the essence of customer service. Highly recommend them.`,
   },
 ]
 

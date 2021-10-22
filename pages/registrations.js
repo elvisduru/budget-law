@@ -2,6 +2,9 @@ import Button from '../components/Button'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 
+import Link from 'next/link'
+import Packages from '../components/Packages'
+
 const Registrations = () => {
   return (
     <div>
@@ -14,10 +17,17 @@ const Registrations = () => {
             recusandae facere sit id a molestiae rerum placeat suscipit totam
             veniam.
           </p>
-          <Button tw="bg-accent text-black before:border-0 py-3 px-10 mt-10 self-start">
-            Get Started
-          </Button>
+          <Link href="#content">
+            <a>
+              <Button tw="bg-accent text-black before:border-0 py-3 px-10 mt-10 self-start">
+                Get Started
+              </Button>
+            </a>
+          </Link>
         </div>
+      </section>
+      <section tw="bg-white py-10 pt-20 -mt-20" id="content">
+        <Packages />
       </section>
       <Footer />
     </div>

@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import useToggle from '../hooks/useToggle'
 import Button from './Button'
-import tw, { css, theme } from 'twin.macro'
-import { useCallback, useEffect, useRef } from 'react'
+import tw from 'twin.macro'
+import { useCallback } from 'react'
 
 export default function NavBar() {
   const [openNav, toggleOpenNav] = useToggle()
@@ -79,11 +79,11 @@ export default function NavBar() {
             <a>Our Clients</a>
           </Link>
         </li>
-        <li>
-          <Link href="/registerations">
+        {/* <li>
+          <Link href="/registrations">
             <a>Online Registration</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/#contact">
             <Button isPrimary>FREE CONSULTATION</Button>
