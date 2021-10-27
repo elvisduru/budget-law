@@ -104,17 +104,16 @@ export default function App() {
           <Fade>
             <h4 tw="font-semibold">Our Team</h4>
             <p tw="mt-1">
-              Our team are our greatest assets drafted from different expertise
+              Our team is our greatest asset drafted from different expertise
               and training in their chosen areas of interest. At Budget Law your
               case will be allocated to a specialist whose experience and
               training have produced positive outcomes in similar set of
               circumstances like your proposed case.
             </p>
-            <h4 tw="font-semibold">Always Accessible At All Times</h4>
+            <h4 tw="font-semibold">Accessible Always</h4>
             <ul tw="list-disc pl-5 mt-1">
-              <li>15 Minute Call Back By A Trained Consultant</li>
-              <li>Low Price & High-Quality Outcome</li>
-              <li>A True 24 Hour Service</li>
+              <li>15 Minute Call Back By an Experienced Lawyer Consultant</li>
+              <li>Competitive &amp; High-Quality Outcome</li>
               <li>No Hidden Costs</li>
               <li>Preferred Provider Discounts</li>
             </ul>
@@ -150,7 +149,7 @@ export default function App() {
       >
         <h2 tw="text-gray-200 text-center lg:(text-3xl leading-relaxed w-1/2 m-auto)">
           <Fade>
-            The best legal team will always look after their clients.
+          Our legal team will always look after you because we care about your success and growth.
           </Fade>
         </h2>
         <Fade delay={100}>
@@ -195,7 +194,7 @@ export default function App() {
         <div>
           <h2 tw="text-accent">Free Consultation</h2>
           <p tw="px-6 mt-0 mb-10 text-sm text-white text-opacity-90">
-            Please fill the form below our consultant will get in touch with you.
+            Please fill the form below and our consultant will get in touch with you.
           </p>
           <ConsultForm />
         </div>

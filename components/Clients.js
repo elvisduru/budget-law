@@ -43,13 +43,14 @@ const SlideContent = ({ name, type, text, image, isDesktop }) => (
           height={isDesktop ? 360 : 250}
         />
       </div>
+      
+      <p tw="col-span-2 text-xs mb-2 mt-7 text-white leading-normal text-opacity-80 whitespace-pre-line md:(col-span-6  text-base)">
+        {text}
+      </p>
       <div tw="ml-5 place-self-end mr-auto md:(col-span-4 ml-0)">
         <h4 tw="text-white text-opacity-90">{name}</h4>
         <h6 tw="text-xs text-accent uppercase">{type}</h6>
       </div>
-      <p tw="col-span-2 text-xs mb-2 mt-7 text-white leading-normal text-opacity-80 whitespace-pre-line md:(col-span-6  text-base)">
-        {text}
-      </p>
     </div>
   </>
 )

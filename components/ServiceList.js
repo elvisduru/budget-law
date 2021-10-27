@@ -12,7 +12,7 @@ const services = [
   {
     imgClass: 'civil',
     title: 'Civil Law',
-    text: 'We have a leading legal team devoted to civil law. We’re widely recognized as leaders, practising on behalf of domestic and foreign corporations, organizations.',
+    text: 'We have a an experienced legal team devoted to civil law. We’re widely recognized as leaders, practising on behalf of domestic and foreign corporations and organizations.',
   },
   {
     imgClass: 'civil',
@@ -22,12 +22,12 @@ const services = [
   {
     imgClass: 'tax',
     title: 'Tax Advisory',
-    text: 'We’ll learn your objectives and tailor customized strategies to meet your short and long-term goals in the tax environments where you do (or plan to do) business.',
+    text: 'We’ll learn your objectives and tailor customized strategies to meet your short and long-term goals in the tax jurisdiction where you do (or plan to do) business.',
   },
   {
     imgClass: 'bank',
     title: 'Intellectual Property',
-    text: 'As your business grows, you will look to protecting your innovations and know-how. Analying your competitive space is also essential.  That’s where we come in with providing opinions regarding your freedom to operate and the patentability of your inventions.',
+    text: 'As your business grows, you will look to protecting your innovations and know-how. Analying your competitive space is also essential.  our intellectual property lawyers protect your innovation giving you the space and freedom to operate and enjoy your patented inventions.',
   },
   {
     imgClass: 'crime',
@@ -36,13 +36,13 @@ const services = [
   },
   {
     imgClass: 'puzzle',
-    title: 'Company or Joint Formation',
-    text: 'Our clients range from start-ups to industry leaders and include private equity funds, strategic buyers, boards of directors, independent committees, family businesses and their shareholders, as well as public companies throughout the world.',
+    title: 'Company or Business Formation',
+    text: 'Our clients range from start-ups to industry leaders and include private equity funds, strategic buyers, boards of directors, family run businesses and their shareholders.',
   },
   {
     imgClass: 'civil',
     title: 'Oil and Gas Law',
-    text: 'We have one of the largest oil and gas legal practices in the world, with associate offices in every major oil and gas market. Our lawyers understand the global nature of the industry but are also able to offer specialized support for domestic market issues.',
+    text: 'We have a thriving oil and gas legal practice with associate offices in the United Kingdom, West Africa, South Africa and East Africa. Our experienced lawyers and seasoned consultants will guide you through the intricacies of the industry and offer practical and professional advice to protect your investments and reputation.',
   },
 ]
 
